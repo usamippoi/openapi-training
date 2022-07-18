@@ -1,0 +1,36 @@
+---
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "タイトル"
+paths:
+  /posts/{id}:
+    get:
+      description: "description\n説明文\n"
+      operationId: "posts_id_get"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "Id of array"
+        required: true
+        type: "number"
+        format: "double"
+      responses:
+        "200":
+          description: "Successful responses"
+          schema:
+            title: "ArrayOfPosts"
+            type: "array"
+            items:
+              type: "object"
+              title: "Posts"
+              properties:
+                name:
+                  type: "string"
+                title:
+                  type: "string"
+                published:
+                  type: "boolean"
+                content:
+                  type: "string"
+      x-swagger-router-controller: "swagger_server.controllers.default_controller"
