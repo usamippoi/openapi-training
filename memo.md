@@ -12,3 +12,6 @@ repository-top
         ├── basic controller (parent, import log, db)
             ├── log class
             ├── db class
+            ├── main process methiod
+                ├── start log
+                ├── end log
