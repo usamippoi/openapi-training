@@ -15,3 +15,6 @@ repository-top
             ├── main process methiod
                 ├── start log
                 ├── end log
+
+# BigQuery Client の利用例
+https://cloud.google.com/blog/ja/products/application-development/inventory-management-bigquery-and-cloud-run
