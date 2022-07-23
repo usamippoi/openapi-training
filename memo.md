@@ -18,3 +18,16 @@ repository-top
 
 # BigQuery Client の利用例
 https://cloud.google.com/blog/ja/products/application-development/inventory-management-bigquery-and-cloud-run
+
+# システム構成v1
+Cloud Run
+├── Docker
+    ├── OpenAPI
+        ├── Controller
+            ├── BaseController
+            ├── API定義
+        ├── Models
+            ├── BaseModel
+                ├── Log
+                ├── DB Access
+            ├── ビジネスロジック
