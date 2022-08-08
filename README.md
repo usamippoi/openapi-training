@@ -1,4 +1,5 @@
 # Running the image from DockerHub
+https://github.com/swagger-api/swagger-editor#running-the-image-from-dockerhub
 
 ```sh
 docker pull swaggerapi/swagger-editor
